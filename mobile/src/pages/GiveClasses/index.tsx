@@ -18,7 +18,7 @@ function GiveClasses() {
       <ImageBackground
         source={giveClassesbgImage}
         style={styles.content}
-        resizeMethod="scale"
+        resizeMode="contain"
       >
         <Text style={styles.title}>Quer ser um Proffy?</Text>
         <Text style={styles.description}>
