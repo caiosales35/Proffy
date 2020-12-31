@@ -8,6 +8,7 @@ import TeacherItem, { Teacher } from "../../Components/TeacherItem";
 
 import styles from "./styles";
 import api from "../../services/api";
+import { useFocusEffect } from "@react-navigation/native";
 
 function TeacherList() {
   const [isFiltersVisible, setIsFiltersVisible] = useState(false);
